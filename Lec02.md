@@ -29,13 +29,15 @@ def classify_image(image):
 	- Use ML to train a classifier
 	- Evaluate the classifier on new images
 ## First Classifier : **Nearest Neighbor**
-- train : ~memorize all training data~
+
+- train : **memorize all training data**
 	- O(1)
-- Predict : predict the label of ~most similar training image~
+- Predict : predict **the label of most similar training image**
 	- O(N)
 - **But we want classifier that are fast at prediction; slow for training is OK.****
 - **K-Nearest Nighbors**
-	- Take **majority vote** from K closest points ![](Lecture%202%20%20Image%20Classification%20pipeline/image.png)
+	- Take **majority vote** from K closest points 
+	![](Lecture%202%20%20Image%20Classification%20pipeline/image.png)
 
 - Distance Metric (to compare images)
 	- L1 distance(Manhattan distance)
