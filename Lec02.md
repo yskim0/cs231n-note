@@ -82,6 +82,7 @@ def classify_image(image):
 	- Not interact with training set
 	- data independent, preferences for some classes
 - Overview![](Lecture%202%20%20Image%20Classification%20pipeline/image.png)
+- Interpretation of linear classifiers as **template matching**
 - Hard cases for a linear classifier
 - Question
 	- how can we tell **whether this W is good or bad?**
